@@ -1,0 +1,109 @@
+
+body{
+margin:0;
+font-family:sans-serif;
+background:#f4f6fb;
+}
+
+.sidebar{
+width:230px;
+height:100vh;
+background:#fff;
+position:fixed;
+padding:20px;
+border-right:1px solid #eee;
+}
+
+.menu{
+display:block;
+padding:14px;
+background:#eef3ff;
+border-radius:12px;
+margin-bottom:10px;
+text-decoration:none;
+color:#2563eb;
+}
+
+.main{
+margin-left:230px;
+}
+
+.topbar{
+height:70px;
+background:#fff;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:0 30px;
+border-bottom:1px solid #eee;
+}
+
+.search{
+width:400px;
+height:45px;
+padding:0 15px;
+border-radius:12px;
+border:1px solid #ddd;
+}
+
+.content{
+padding:30px;
+}
+
+.card-box{
+background:#fff;
+padding:25px;
+border-radius:18px;
+margin-bottom:25px;
+border:1px solid #eee;
+}
+
+.grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+}
+
+.dropzone{
+border:2px dashed #ccc;
+padding:40px;
+border-radius:16px;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#fafafa;
+}
+
+.form-area{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.btn-upload{
+background:#0ea66c;
+color:#fff;
+border:none;
+height:50px;
+border-radius:12px;
+padding:0 20px;
+}
+
+.login-page{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.login-card{
+background:#fff;
+padding:40px;
+border-radius:18px;
+width:350px;
+border:1px solid #eee;
+}
+
+table{
+background:#fff;
+}
